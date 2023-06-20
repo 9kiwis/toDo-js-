@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+hr{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.container{
+    position: relative;
+    width: 300px;
+    margin: 150px auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#input{
+    margin-top: 15px;
+    padding: 5px 15px ;
+}
+
+li{
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.btn{
+    display: inline-block;
+    width: 90px;
+    padding: 7px 0;
+    background-color: rgb(30, 184, 30);
+    border: none;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(31, 138, 31);
+}
+
+
+.task input[type="checkbox"] {
+    position: absolute;
+    left: 10px;
+}
+
+.task .delete-button {
+    position: absolute;
+    right: 0;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #dd3636;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.task.completed label {
+    text-decoration: line-through;
+}
